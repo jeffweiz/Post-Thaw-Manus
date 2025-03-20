@@ -1,0 +1,126 @@
+body {
+    padding-top: 56px;
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.jumbotron {
+    background: linear-gradient(135deg, #1a3c8a 0%, #4a6fa5 100%);
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 2.5rem;
+    border-bottom: 2px solid #eaecef;
+    padding-bottom: 0.3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    border-bottom: 1px solid #eaecef;
+    padding-bottom: 0.3rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.table-of-contents {
+    position: sticky;
+    top: 80px;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+}
+
+.content-section {
+    margin-bottom: 3rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.content-section:last-child {
+    border-bottom: none;
+}
+
+blockquote {
+    padding: 0.5rem 1rem;
+    margin: 0 0 1rem;
+    border-left: 0.25rem solid #e9ecef;
+    color: #6c757d;
+}
+
+code {
+    background-color: #f8f9fa;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+}
+
+pre {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    overflow-x: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.section-nav {
+    background-color: #f8f9fa;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-nav-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.section-nav-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.section-nav-item {
+    margin-bottom: 0.25rem;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50%;
+    opacity: 0.7;
+    z-index: 1000;
+}
+
+.back-to-top:hover {
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width: 767.98px) {
+    .table-of-contents {
+        position: static;
+        margin-bottom: 2rem;
+    }
+}
